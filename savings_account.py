@@ -31,4 +31,4 @@ def create_savings_account(balance, interest_rate, months):
     savings_account.set_interest(savings_interest_earned)
 
     # Return the updated balance and interest earned.
-    return savings_new_balance, savings_interest_earned
+    return savings_account.get_balance(), savings_account.get_interest()
